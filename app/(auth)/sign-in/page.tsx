@@ -1,8 +1,12 @@
 import React from 'react'
+import AuthForm from '@/components/AuthForm'
 
-const SignIn = () => {
+const SignIn = async() => {
+
   return (
-    <div>SignIn</div>
+    <section className='w-1/2'>
+        <AuthForm type="sign-in"/>
+    </section>
   )
 }
 
